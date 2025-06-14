@@ -1,0 +1,243 @@
+ 
+.navbar{
+    background-color:white;
+    width: 100%;
+    /* height: 40px; */
+
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 0;
+
+    position: fixed;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.img{
+    background-image: url(/assests/architect1.jpg);
+
+   width: 100%;
+   height: 800px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position:static;
+}
+.tag{
+    display: flex;
+    
+    justify-content: center;
+    padding-top: 25%;
+   
+}
+.tag h1{
+    font-size: 40px;
+    color: white;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h1{
+    /* padding-right: 20px; */
+
+    /* border: 2px solid black; */
+    background-color: rgb(29, 29, 29);
+    padding: 10px 15px;
+}
+.h2{
+    padding: 11px 14px;
+}
+.projects{
+    /* border: 2px solid rgb(242, 16, 16); */
+
+    width: 100%;
+    height: 600px;
+
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+
+    /* padding-left: 20px; */
+
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    /* border: 1px solid black; */
+    height: 250px;
+
+}
+.box1{
+    background-image: url(/assests/house1.jpg);
+    margin-right: 16px;
+}
+.box2{
+    background-image: url(/assests/house2.jpg);
+    margin-right: 16px;
+}
+.box3{
+    background-image: url(/assests/house3.jpg);
+    margin-right: 16px;
+}
+.box4{
+    background-image: url(/assests/house4.jpg);
+}
+.box5{
+    background-image: url(/assests/house5.jpg);
+    margin-right: 16px;
+    margin-bottom: 60px;
+}
+.box6{
+    background-image: url(/assests/house6.jpg);
+    margin-right: 16px;
+}
+.box7{
+    background-image: url(/assests/house7.jpg);
+    margin-right: 16px;
+}
+.box8{
+    background-image: url(/assests/house8.jpg);
+}
+
+.projects p{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    /* padding-top: 0px; */
+
+    font-size: 20px;
+    padding: 10px 10px;
+    margin-top: 0px;
+}
+
+.about{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 700px;
+}
+.about p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.grid{
+    width: 100%;
+    height: 600px;
+
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.box9,.box10,.box11,.box12,.box13,.box14,.box15,.box16{
+    /* border: 1px solid black; */
+    height: 250px;
+
+}
+
+.box9{
+    background-image: url(/assests/Arc1.jpg);
+    background-size: cover;
+    margin-right: 16px;
+    filter: grayscale();
+    
+}
+.box10{
+    background-image: url(/assests/Arc2.jpg);
+    background-size: cover;
+    margin-right: 16px;
+    filter: grayscale();
+
+    /* width: 100%;
+    height: 200px; */
+}
+.box11{
+    background-image: url(/assests/Arc3.jpg);
+    background-size: cover;
+    margin-right: 16px;
+    filter: grayscale();
+}
+.box12{
+    background-image: url(/assests/Arc4.jpg);
+    background-size: cover;
+    filter: grayscale();
+}
+.box13{
+   
+    margin-right: 16px;
+    margin-bottom: 100px;
+}
+.box14{
+   
+    margin-right: 16px;
+}
+.box15{
+    
+    margin-right: 16px;
+}
+/* .box13,.box14,.box15,.box16{
+    
+} */
+
+.para2{
+    color: gray;
+}
+.contact{
+    /* border: 2px solid black; */
+    height: 25px;
+    background-color: rgb(225, 226, 230);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contact1{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 370px;
+}
+.contact1 input{
+    width: 99.5%;
+    height: 40px;
+    /* padding:10px 10px; */
+    margin: 10px 0px;
+}
+
+.message{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+.map img{
+  width: 100%;
+  padding-top: 40px;
+}
+footer{
+    /* border:  2px; */
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(13, 13, 13);
+    padding-top: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.pad{
+    padding: 0px 20px;
+}
